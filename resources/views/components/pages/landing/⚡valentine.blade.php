@@ -19,7 +19,7 @@ new class extends Component {
 ?>
 
 <div x-data="{
-        isLocked: {{ $data['p'] ? 'true' : 'false' }},
+        isLocked: false,
         userPass: '',
         correctPassword: '{{ $data['p'] }}',
         passwordError: false,
